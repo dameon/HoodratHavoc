@@ -1,0 +1,534 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F17A7C1A19080B5600229D71 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F17A7C1919080B5600229D71 /* Foundation.framework */; };
+		F17A7C1C19080B5600229D71 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F17A7C1B19080B5600229D71 /* CoreGraphics.framework */; };
+		F17A7C1E19080B5600229D71 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F17A7C1D19080B5600229D71 /* UIKit.framework */; };
+		F17A7C2019080B5600229D71 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F17A7C1F19080B5600229D71 /* SpriteKit.framework */; };
+		F17A7C2619080B5600229D71 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F17A7C2419080B5600229D71 /* InfoPlist.strings */; };
+		F17A7C2819080B5600229D71 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F17A7C2719080B5600229D71 /* main.m */; };
+		F17A7C2C19080B5600229D71 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F17A7C2B19080B5600229D71 /* AppDelegate.m */; };
+		F17A7C2F19080B5600229D71 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F17A7C2D19080B5600229D71 /* Main.storyboard */; };
+		F17A7C3219080B5600229D71 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F17A7C3119080B5600229D71 /* ViewController.m */; };
+		F17A7C3519080B5600229D71 /* MyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = F17A7C3419080B5600229D71 /* MyScene.m */; };
+		F17A7C3719080B5600229D71 /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = F17A7C3619080B5600229D71 /* Spaceship.png */; };
+		F17A7C4019080B5600229D71 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F17A7C3F19080B5600229D71 /* XCTest.framework */; };
+		F17A7C4119080B5600229D71 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F17A7C1919080B5600229D71 /* Foundation.framework */; };
+		F17A7C4219080B5600229D71 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F17A7C1D19080B5600229D71 /* UIKit.framework */; };
+		F17A7C4A19080B5600229D71 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F17A7C4819080B5600229D71 /* InfoPlist.strings */; };
+		F17A7C4C19080B5600229D71 /* HoodratHavocTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F17A7C4B19080B5600229D71 /* HoodratHavocTests.m */; };
+		F17A7C5919080D3D00229D71 /* MyScene2.m in Sources */ = {isa = PBXBuildFile; fileRef = F17A7C5619080D3D00229D71 /* MyScene2.m */; };
+		F17A7C5A19080D3D00229D71 /* MyScene3.m in Sources */ = {isa = PBXBuildFile; fileRef = F17A7C5819080D3D00229D71 /* MyScene3.m */; };
+		F17A7C5E19080DAA00229D71 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F17A7C5D19080DAA00229D71 /* Images.xcassets */; };
+		F17A7C6519080E1400229D71 /* sprites.atlas in Resources */ = {isa = PBXBuildFile; fileRef = F17A7C6419080E1400229D71 /* sprites.atlas */; };
+		F17A7C6819080E8800229D71 /* GameOverScene.m in Sources */ = {isa = PBXBuildFile; fileRef = F17A7C6719080E8800229D71 /* GameOverScene.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F17A7C4319080B5600229D71 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F17A7C0E19080B5600229D71 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F17A7C1519080B5600229D71;
+			remoteInfo = HoodratHavoc;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F17A7C1619080B5600229D71 /* HoodratHavoc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HoodratHavoc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F17A7C1919080B5600229D71 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F17A7C1B19080B5600229D71 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F17A7C1D19080B5600229D71 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F17A7C1F19080B5600229D71 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		F17A7C2319080B5600229D71 /* HoodratHavoc-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HoodratHavoc-Info.plist"; sourceTree = "<group>"; };
+		F17A7C2519080B5600229D71 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F17A7C2719080B5600229D71 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F17A7C2919080B5600229D71 /* HoodratHavoc-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HoodratHavoc-Prefix.pch"; sourceTree = "<group>"; };
+		F17A7C2A19080B5600229D71 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F17A7C2B19080B5600229D71 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F17A7C2E19080B5600229D71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F17A7C3019080B5600229D71 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F17A7C3119080B5600229D71 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F17A7C3319080B5600229D71 /* MyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyScene.h; sourceTree = "<group>"; };
+		F17A7C3419080B5600229D71 /* MyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyScene.m; sourceTree = "<group>"; };
+		F17A7C3619080B5600229D71 /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
+		F17A7C3E19080B5600229D71 /* HoodratHavocTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HoodratHavocTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F17A7C3F19080B5600229D71 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		F17A7C4719080B5600229D71 /* HoodratHavocTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HoodratHavocTests-Info.plist"; sourceTree = "<group>"; };
+		F17A7C4919080B5600229D71 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F17A7C4B19080B5600229D71 /* HoodratHavocTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HoodratHavocTests.m; sourceTree = "<group>"; };
+		F17A7C5519080D3D00229D71 /* MyScene2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyScene2.h; sourceTree = "<group>"; };
+		F17A7C5619080D3D00229D71 /* MyScene2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyScene2.m; sourceTree = "<group>"; };
+		F17A7C5719080D3D00229D71 /* MyScene3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyScene3.h; sourceTree = "<group>"; };
+		F17A7C5819080D3D00229D71 /* MyScene3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyScene3.m; sourceTree = "<group>"; };
+		F17A7C5D19080DAA00229D71 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F17A7C6419080E1400229D71 /* sprites.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = sprites.atlas; sourceTree = "<group>"; };
+		F17A7C6619080E8800229D71 /* GameOverScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameOverScene.h; sourceTree = "<group>"; };
+		F17A7C6719080E8800229D71 /* GameOverScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameOverScene.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F17A7C1319080B5600229D71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F17A7C1C19080B5600229D71 /* CoreGraphics.framework in Frameworks */,
+				F17A7C1E19080B5600229D71 /* UIKit.framework in Frameworks */,
+				F17A7C2019080B5600229D71 /* SpriteKit.framework in Frameworks */,
+				F17A7C1A19080B5600229D71 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F17A7C3B19080B5600229D71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F17A7C4019080B5600229D71 /* XCTest.framework in Frameworks */,
+				F17A7C4219080B5600229D71 /* UIKit.framework in Frameworks */,
+				F17A7C4119080B5600229D71 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F17A7C0D19080B5600229D71 = {
+			isa = PBXGroup;
+			children = (
+				F17A7C6419080E1400229D71 /* sprites.atlas */,
+				F17A7C2119080B5600229D71 /* HoodratHavoc */,
+				F17A7C4519080B5600229D71 /* HoodratHavocTests */,
+				F17A7C1819080B5600229D71 /* Frameworks */,
+				F17A7C1719080B5600229D71 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F17A7C1719080B5600229D71 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F17A7C1619080B5600229D71 /* HoodratHavoc.app */,
+				F17A7C3E19080B5600229D71 /* HoodratHavocTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F17A7C1819080B5600229D71 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F17A7C1919080B5600229D71 /* Foundation.framework */,
+				F17A7C1B19080B5600229D71 /* CoreGraphics.framework */,
+				F17A7C1D19080B5600229D71 /* UIKit.framework */,
+				F17A7C1F19080B5600229D71 /* SpriteKit.framework */,
+				F17A7C3F19080B5600229D71 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F17A7C2119080B5600229D71 /* HoodratHavoc */ = {
+			isa = PBXGroup;
+			children = (
+				F17A7C5D19080DAA00229D71 /* Images.xcassets */,
+				F17A7C5519080D3D00229D71 /* MyScene2.h */,
+				F17A7C5619080D3D00229D71 /* MyScene2.m */,
+				F17A7C5719080D3D00229D71 /* MyScene3.h */,
+				F17A7C5819080D3D00229D71 /* MyScene3.m */,
+				F17A7C2A19080B5600229D71 /* AppDelegate.h */,
+				F17A7C2B19080B5600229D71 /* AppDelegate.m */,
+				F17A7C2D19080B5600229D71 /* Main.storyboard */,
+				F17A7C3019080B5600229D71 /* ViewController.h */,
+				F17A7C3119080B5600229D71 /* ViewController.m */,
+				F17A7C6619080E8800229D71 /* GameOverScene.h */,
+				F17A7C6719080E8800229D71 /* GameOverScene.m */,
+				F17A7C3319080B5600229D71 /* MyScene.h */,
+				F17A7C3419080B5600229D71 /* MyScene.m */,
+				F17A7C3619080B5600229D71 /* Spaceship.png */,
+				F17A7C2219080B5600229D71 /* Supporting Files */,
+			);
+			path = HoodratHavoc;
+			sourceTree = "<group>";
+		};
+		F17A7C2219080B5600229D71 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F17A7C2319080B5600229D71 /* HoodratHavoc-Info.plist */,
+				F17A7C2419080B5600229D71 /* InfoPlist.strings */,
+				F17A7C2719080B5600229D71 /* main.m */,
+				F17A7C2919080B5600229D71 /* HoodratHavoc-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F17A7C4519080B5600229D71 /* HoodratHavocTests */ = {
+			isa = PBXGroup;
+			children = (
+				F17A7C4B19080B5600229D71 /* HoodratHavocTests.m */,
+				F17A7C4619080B5600229D71 /* Supporting Files */,
+			);
+			path = HoodratHavocTests;
+			sourceTree = "<group>";
+		};
+		F17A7C4619080B5600229D71 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F17A7C4719080B5600229D71 /* HoodratHavocTests-Info.plist */,
+				F17A7C4819080B5600229D71 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F17A7C1519080B5600229D71 /* HoodratHavoc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F17A7C4F19080B5600229D71 /* Build configuration list for PBXNativeTarget "HoodratHavoc" */;
+			buildPhases = (
+				F17A7C1219080B5600229D71 /* Sources */,
+				F17A7C1319080B5600229D71 /* Frameworks */,
+				F17A7C1419080B5600229D71 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HoodratHavoc;
+			productName = HoodratHavoc;
+			productReference = F17A7C1619080B5600229D71 /* HoodratHavoc.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F17A7C3D19080B5600229D71 /* HoodratHavocTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F17A7C5219080B5600229D71 /* Build configuration list for PBXNativeTarget "HoodratHavocTests" */;
+			buildPhases = (
+				F17A7C3A19080B5600229D71 /* Sources */,
+				F17A7C3B19080B5600229D71 /* Frameworks */,
+				F17A7C3C19080B5600229D71 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F17A7C4419080B5600229D71 /* PBXTargetDependency */,
+			);
+			name = HoodratHavocTests;
+			productName = HoodratHavocTests;
+			productReference = F17A7C3E19080B5600229D71 /* HoodratHavocTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F17A7C0E19080B5600229D71 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Dameon Bryant";
+				TargetAttributes = {
+					F17A7C1519080B5600229D71 = {
+						DevelopmentTeam = W345E7CZ5N;
+					};
+					F17A7C3D19080B5600229D71 = {
+						DevelopmentTeam = W345E7CZ5N;
+						TestTargetID = F17A7C1519080B5600229D71;
+					};
+				};
+			};
+			buildConfigurationList = F17A7C1119080B5600229D71 /* Build configuration list for PBXProject "HoodratHavoc" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F17A7C0D19080B5600229D71;
+			productRefGroup = F17A7C1719080B5600229D71 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F17A7C1519080B5600229D71 /* HoodratHavoc */,
+				F17A7C3D19080B5600229D71 /* HoodratHavocTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F17A7C1419080B5600229D71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F17A7C6519080E1400229D71 /* sprites.atlas in Resources */,
+				F17A7C2619080B5600229D71 /* InfoPlist.strings in Resources */,
+				F17A7C5E19080DAA00229D71 /* Images.xcassets in Resources */,
+				F17A7C3719080B5600229D71 /* Spaceship.png in Resources */,
+				F17A7C2F19080B5600229D71 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F17A7C3C19080B5600229D71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F17A7C4A19080B5600229D71 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F17A7C1219080B5600229D71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F17A7C6819080E8800229D71 /* GameOverScene.m in Sources */,
+				F17A7C5A19080D3D00229D71 /* MyScene3.m in Sources */,
+				F17A7C3519080B5600229D71 /* MyScene.m in Sources */,
+				F17A7C3219080B5600229D71 /* ViewController.m in Sources */,
+				F17A7C2C19080B5600229D71 /* AppDelegate.m in Sources */,
+				F17A7C5919080D3D00229D71 /* MyScene2.m in Sources */,
+				F17A7C2819080B5600229D71 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F17A7C3A19080B5600229D71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F17A7C4C19080B5600229D71 /* HoodratHavocTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F17A7C4419080B5600229D71 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F17A7C1519080B5600229D71 /* HoodratHavoc */;
+			targetProxy = F17A7C4319080B5600229D71 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F17A7C2419080B5600229D71 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F17A7C2519080B5600229D71 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F17A7C2D19080B5600229D71 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F17A7C2E19080B5600229D71 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F17A7C4819080B5600229D71 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F17A7C4919080B5600229D71 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F17A7C4D19080B5600229D71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "EB59DF62-D4C8-4205-A45A-14AB5C095032";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F17A7C4E19080B5600229D71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Dameon Bryant (W345E7CZ5N)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PROVISIONING_PROFILE = "EB59DF62-D4C8-4205-A45A-14AB5C095032";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F17A7C5019080B5600229D71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HoodratHavoc/HoodratHavoc-Prefix.pch";
+				INFOPLIST_FILE = "HoodratHavoc/HoodratHavoc-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "bd9f21c8-3176-45bf-8b1e-70869fd84d92";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F17A7C5119080B5600229D71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HoodratHavoc/HoodratHavoc-Prefix.pch";
+				INFOPLIST_FILE = "HoodratHavoc/HoodratHavoc-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "bd9f21c8-3176-45bf-8b1e-70869fd84d92";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F17A7C5319080B5600229D71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HoodratHavoc.app/HoodratHavoc";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HoodratHavoc/HoodratHavoc-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "HoodratHavocTests/HoodratHavocTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		F17A7C5419080B5600229D71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HoodratHavoc.app/HoodratHavoc";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HoodratHavoc/HoodratHavoc-Prefix.pch";
+				INFOPLIST_FILE = "HoodratHavocTests/HoodratHavocTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F17A7C1119080B5600229D71 /* Build configuration list for PBXProject "HoodratHavoc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F17A7C4D19080B5600229D71 /* Debug */,
+				F17A7C4E19080B5600229D71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F17A7C4F19080B5600229D71 /* Build configuration list for PBXNativeTarget "HoodratHavoc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F17A7C5019080B5600229D71 /* Debug */,
+				F17A7C5119080B5600229D71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F17A7C5219080B5600229D71 /* Build configuration list for PBXNativeTarget "HoodratHavocTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F17A7C5319080B5600229D71 /* Debug */,
+				F17A7C5419080B5600229D71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F17A7C0E19080B5600229D71 /* Project object */;
+}
