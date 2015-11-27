@@ -42,14 +42,14 @@
     return YES;
 }
 
-- (NSUInteger)supportedInterfaceOrientations
-{
-    if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone) {
-        return UIInterfaceOrientationMaskAllButUpsideDown;
-    } else {
-        return UIInterfaceOrientationMaskAll;
-    }
-}
+//- (NSUInteger)supportedInterfaceOrientations
+//{
+//    if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone) {
+//        return UIInterfaceOrientationMaskAllButUpsideDown;
+//    } else {
+//        return UIInterfaceOrientationMaskAll;
+//    }
+//}
 
 - (void)didReceiveMemoryWarning
 {

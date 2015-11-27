@@ -226,7 +226,7 @@
 		F17A7C0E19080B5600229D71 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0510;
+				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = "Dameon Bryant";
 				TargetAttributes = {
 					F17A7C1519080B5600229D71 = {
@@ -359,6 +359,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -425,6 +426,7 @@
 				GCC_PREFIX_HEADER = "HoodratHavoc/HoodratHavoc-Prefix.pch";
 				INFOPLIST_FILE = "HoodratHavoc/HoodratHavoc-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.db.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
@@ -444,6 +446,7 @@
 				GCC_PREFIX_HEADER = "HoodratHavoc/HoodratHavoc-Prefix.pch";
 				INFOPLIST_FILE = "HoodratHavoc/HoodratHavoc-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.db.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
@@ -470,6 +473,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "HoodratHavocTests/HoodratHavocTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dameon.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				TEST_HOST = "$(BUNDLE_LOADER)";
@@ -491,6 +495,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HoodratHavoc/HoodratHavoc-Prefix.pch";
 				INFOPLIST_FILE = "HoodratHavocTests/HoodratHavocTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dameon.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				TEST_HOST = "$(BUNDLE_LOADER)";
